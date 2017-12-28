@@ -1,11 +1,9 @@
 package idv.kuma.diexample.ok;
 
-import org.junit.After;
-import org.junit.Before;
+import idv.kuma.diexample.ok.implement.CoolKiller;
 import org.junit.Test;
 import org.mockito.Mockito;
 
-import static org.junit.Assert.*;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
