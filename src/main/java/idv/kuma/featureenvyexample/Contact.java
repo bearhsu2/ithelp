@@ -38,4 +38,11 @@ public class Contact {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
+    public String generateFormattedPrint(){
+        String result = name + ": ";
+        result += email + " | ";
+        result += phoneNumber + ". ";
+        return result;
+    }
 }

@@ -17,9 +17,7 @@ public class PhoneBook {
         String result = "";
         for (Contact contact : contacts){
 
-            result += contact.getName() + ": ";
-            result += contact.getEmail() + " | ";
-            result += contact.getPhoneNumber() + ". ";
+            result += contact.generateFormattedPrint();
             result += "\n";
         }
         return result;
